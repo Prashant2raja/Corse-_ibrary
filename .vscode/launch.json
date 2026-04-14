@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Course Library (Maven)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "${workspaceFolder}\\mvnw.cmd spring-boot:run",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
